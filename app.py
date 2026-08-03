@@ -9,7 +9,7 @@ st.title("🏢 Admin Console Analytics Dashboard")
 # --- FILE UPLOAD COMPONENT ---
 st.sidebar.header("Data Upload")
 st.sidebar.write("Upload a new file to update the dashboard instantly.")
-uploaded_file = st.sidebar.file_uploader("Upload Excel File", type=["xlsx", "xls"])
+uploaded_file = st.sidebar.file_uploader("https://docs.google.com/spreadsheets/d/1JE7Te_uNQ2tNE-T6OON2md-RmA5RJh1p/edit?usp=sharing&ouid=117552112355200391376&rtpof=true&sd=true", type=["https://docs.google.com/spreadsheets/d/1JE7Te_uNQ2tNE-T6OON2md-RmA5RJh1p/edit?usp=sharing&ouid=117552112355200391376&rtpof=true&sd=true"])
 
 # Determine which file to use
 file_to_read = uploaded_file if uploaded_file else "Admin Console _ FY26_27.xlsx"
