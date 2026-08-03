@@ -15,7 +15,7 @@ uploaded_file = st.sidebar.file_uploader("Upload Excel File", type=["xlsx", "xls
 file_to_read = uploaded_file if uploaded_file else "Admin Console _ FY26_27.xlsx"
 
 # --- UPDATED & MORE ROBUST DATA LOADING ---
-sheet_to_load = "sheet_to_load = "Monthly Bills " # The sheet name we are trying to load
+sheet_to_load = "Monthly Bills"
 
 try:
     # Read the specified sheet
